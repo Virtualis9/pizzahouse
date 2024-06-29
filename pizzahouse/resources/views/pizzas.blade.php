@@ -1,12 +1,12 @@
 @extends('layouts.layout')
 
 @section('content')
-<div>
+<div class="PizzaListHeader">
     Pizza List
 </div>
-<div>
+<div class="container">
     @foreach($pizzas as $pizza)
-    <div>
+    <div class="pizzalist">
         {{ $pizza['type'] }} - {{ $pizza['base'] }}
     </div>
     @endforeach

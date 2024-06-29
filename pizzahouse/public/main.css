@@ -1,6 +1,26 @@
 body {
-    background-color: black;
-    color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    flex-direction: column;
+}
+
+.PizzaListHeader {
     text-align: center;
+    padding: 20px;
+
+    margin-bottom: 20px; /* Example: Add some bottom margin */
+}
+
+.container {
+    text-align: center; /* Center content within the container */
+}
+
+.pizzalist {
+    display: inline-block; /* Display as inline block */
+    /* text-align: left; Reset text alignment to left */
+    padding: 20px;
+    /* Optional: Adjust dimensions and styling of the pizzalist */
 }
